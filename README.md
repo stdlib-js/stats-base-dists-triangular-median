@@ -33,7 +33,7 @@ The [median][median] for a [triangular][triangular-distribution] random variable
 <!-- <equation class="equation" label="eq:triangular_median" align="center" raw="\operatorname{Median}\left( X \right) = \begin{cases}a+{\sqrt {\frac {(b-a)(c-a)}{2}}}&{\text{ for }}c\geq {\frac {a+b}{2}}\\[6pt]b-{\sqrt {\frac {(b-a)(b-c)}{2}}}&{\text{ for }}c\leq {\frac{a+b}{2}}\end{cases}" alt="Median for a triangular distribution."> -->
 
 ```math
-\operatorname{Median}\left( X \right) = \begin{cases}a+{\sqrt {\frac {(b-a)(c-a)}{2}}}&{\text{ for }}c\geq {\frac {a+b}{2}}\\[6pt]b-{\sqrt {\frac {(b-a)(b-c)}{2}}}&{\text{ for }}c\leq {\frac{a+b}{2}}\end{cases}
+\mathop{\mathrm{Median}}\left( X \right) = \begin{cases}a+{\sqrt {\frac {(b-a)(c-a)}{2}}}&{\text{ for }}c\geq {\frac {a+b}{2}}\\[6pt]b-{\sqrt {\frac {(b-a)(b-c)}{2}}}&{\text{ for }}c\leq {\frac{a+b}{2}}\end{cases}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\operatorname{Median}\left( X \right) = \begin{cases}a+{\sqrt {\frac {(b-a)(c-a)}{2}}}&amp;{\text{ for }}c\geq {\frac {a+b}{2}}\\[6pt]b-{\sqrt {\frac {(b-a)(b-c)}{2}}}&amp;{\text{ for }}c\leq {\frac{a+b}{2}}\end{cases}" data-equation="eq:triangular_median">
@@ -51,38 +51,30 @@ where `a` is the lower limit, `b` is the upper limit and `c` is the mode.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-triangular-median
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-median = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var median = require( 'path/to/vendor/umd/stats-base-dists-triangular-median/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.median;
-})();
-</script>
+var median = require( '@stdlib/stats-base-dists-triangular-median' );
 ```
 
 #### median( a, b, c )
@@ -146,14 +138,9 @@ y = median( 0.0, -1.0, 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var median = require( '@stdlib/stats-base-dists-triangular-median' );
 
 var a;
 var b;
@@ -168,11 +155,6 @@ for ( i = 0; i < 10; i++ ) {
     v = median( a, b, c );
     console.log( 'a: %d, b: %d, c: %d, Median(X;a,b,c): %d', a.toFixed( 4 ), b.toFixed( 4 ), c.toFixed( 4 ), v.toFixed( 4 ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
