@@ -69,7 +69,7 @@ where `a` is the lower limit, `b` is the upper limit and `c` is the mode.
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@deno/mod.js';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@v0.2.1-deno/mod.js';
 ```
 
 #### median( a, b, c )
@@ -135,7 +135,7 @@ y = median( 0.0, -1.0, 0.5 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@deno/mod.js';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-median@v0.2.1-deno/mod.js';
 
 var a;
 var b;
