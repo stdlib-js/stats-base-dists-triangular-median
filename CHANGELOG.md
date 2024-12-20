@@ -2,6 +2,63 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-12-20)
+
+<section class="features">
+
+### Features
+
+-   [`8bb1cf3`](https://github.com/stdlib-js/stdlib/commit/8bb1cf3e5a003c54a909412cda9143d85ec10f30) - add C implementation for `dist/triangular/median` [(#4004)](https://github.com/stdlib-js/stdlib/pull/4004)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3817](https://github.com/stdlib-js/stdlib/issues/3817)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8bb1cf3`](https://github.com/stdlib-js/stdlib/commit/8bb1cf3e5a003c54a909412cda9143d85ec10f30) - **feat:** add C implementation for `dist/triangular/median` [(#4004)](https://github.com/stdlib-js/stdlib/pull/4004) _(by Divyansh Seth, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Divyansh Seth
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
