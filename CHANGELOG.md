@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-01)
+## Unreleased (2025-03-02)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3817](https://github.com/stdlib-js/stdlib/issues/3817)
+[#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#5709](https://github.com/stdlib-js/stdlib/issues/5709)
 
 </section>
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c63c47a`](https://github.com/stdlib-js/stdlib/commit/c63c47a458a3d233352565566a48f02c5a48c602) - **chore:** address commit comment [(#5725)](https://github.com/stdlib-js/stdlib/pull/5725) _(by Jalaj Kumar)_
 -   [`8abdc55`](https://github.com/stdlib-js/stdlib/commit/8abdc5534462ea8e26a02042ff5d26c2ec8bb2f6) - **test:** add tests to achieve 100% code coverage [(#5636)](https://github.com/stdlib-js/stdlib/pull/5636) _(by Karan Anand)_
 -   [`c7bfa92`](https://github.com/stdlib-js/stdlib/commit/c7bfa923af0c5346766c90300e0d0a3c2188d438) - **docs:** fix missing ending `section` in various READMEs [(#5292)](https://github.com/stdlib-js/stdlib/pull/5292) _(by Saurabh Singh)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
@@ -50,9 +51,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Divyansh Seth
+-   Jalaj Kumar
 -   Karan Anand
 -   Philipp Burckhardt
 -   Saurabh Singh
