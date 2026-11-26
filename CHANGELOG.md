@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-16)
+## Unreleased (2026-11-26)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#4989](https://github.com/stdlib-js/stdlib/issues/4989)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`f008bf3`](https://github.com/stdlib-js/stdlib/commit/f008bf3988c36006ff71feacc7cfe4af94c149ae) - **bench:** refactor random number generation in `stats/base/dists/triangular` [(#16644)](https://github.com/stdlib-js/stdlib/pull/16644) _(by Parth Dembla, Athan Reines)_
 -   [`c9510cd`](https://github.com/stdlib-js/stdlib/commit/c9510cdf2c6cc430a9409887d37b3c28c1c5e617) - **test:** migrate `stats/base/dists/triangular/median` to ULP-based assertions [(#15396)](https://github.com/stdlib-js/stdlib/pull/15396) _(by Devansh Patel)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
@@ -26,9 +39,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Devansh Patel
+-   Parth Dembla
 -   Philipp Burckhardt
 
 </section>
